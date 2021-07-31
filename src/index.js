@@ -4,6 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+export default {
+  es5ImcompatibleVersions: true,
+}
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
