@@ -23,6 +23,7 @@
     "react-scripts": "^4.0.3",
     "reactstrap": "^8.9.0",
     "roadhog": "^2.4.9",
+    "toggle-switch-react-native": "^3.2.0",
     "umi": "^3.4.25",
     "urix": "^0.1.0",
     "web-vitals": "^1.0.1"
@@ -51,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "webpack-chain": "^6.5.1"
   }
 }

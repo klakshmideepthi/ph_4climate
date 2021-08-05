@@ -2,7 +2,7 @@ import React,{useState,useEffect,selectChange,cardSelector,Component} from 'reac
 import {Button,Avatar} from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import Navbar1 from './Navbar1';
-import Menu1 from './Menu1';
+import Menu2 from './Menu2';
 import Set_alarm from './Set_alarm';
 import Samples_report from './Samples_report';
 import Calibrate from './Calibrate';
@@ -125,7 +125,7 @@ render(){
     <div>
         <Navbar1/>
         <div className="container4">
-        <Menu1/>
+        <Menu2/>
         <Device/>
         <div className="devicestatus">
             <a className="h31">Device Status</a>

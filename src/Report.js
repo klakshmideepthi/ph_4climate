@@ -2,7 +2,7 @@ import React,{useState,useEffect,selectChange,cardSelector,Component} from 'reac
 import {Button} from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import Navbar1 from './Navbar1';
-import Menu1 from './Menu1';
+import Menu3 from './Menu3';
 import Device from './Device';
 import './style.css';
 import { Menu } from '@material-ui/icons';
@@ -16,7 +16,7 @@ const Report = () => {
     <div>
         <Navbar1/>
         <div className="container4">
-        <Menu1/>
+        <Menu3/>
         <Device/>
         <div className="report">
           <a className="h31">Generate Report</a>

@@ -1,4 +1,4 @@
-import {React,Component} from 'react';
+import {React,Component,useState} from 'react';
 import './style.css';
 import {Button,Avatar} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
@@ -52,11 +52,18 @@ export class Set_alarm extends Component {
         return (
           <div  className="container9"> 
           <div><a className="p8">Set the pH Normal Range  </a></div>
-          <div className="space1"><a className="p3">Do you want to record your sample data?</a></div>
           <div className="btnlist1">
-            <Button className="button8">No</Button>
-            <Button className="button9"  onClick={this.continue} >Yes</Button>
+            <div className="align_center">
+              <div><a className="p11">Lower Limit</a></div>
+              <Button className="button16">6.5</Button>
+            </div>
+            <div className="align_center">
+              <div><a className="p11">Upper Limit</a></div>
+              <Button className="button16">7.5</Button>
+            </div>
+            <div  className="space3"><Button className="button9" onClick={this.continue} >Next</Button></div>
           </div>
+          <div className="space5"><a className="p12">Turning on will notify when value exceeds limit.</a></div>
           </div>
         );
       case 2:
@@ -79,5 +86,6 @@ export class Set_alarm extends Component {
     }
   }
 }
+
 
 export default Set_alarm;

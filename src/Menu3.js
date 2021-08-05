@@ -7,14 +7,14 @@ import icon3 from './images/icon3p.svg';
 import {Button,Avatar} from '@material-ui/core';
 import { render } from '@testing-library/react';
 
-class Menu1 extends Component {
+class Menu3 extends Component {
 
   constructor(props){
     super(props);
     this.state = {
-      isActiveClass1: 'true',
+      isActiveClass1: 'false',
       isActiveClass2: 'false',
-      isActiveClass3: 'false',
+      isActiveClass3: 'true',
   };
 };
 
@@ -74,4 +74,4 @@ render(){
 }
 };
 
-export default Menu1;
+export default Menu3;
